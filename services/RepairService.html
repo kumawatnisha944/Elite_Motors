@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Repair versus Car Service</title>
+    <link rel="stylesheet" href="service.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+        <!-- favicon -->
+<link rel="icon" type="image/png" href="/favicon/favicon-96x96.png" sizes="96x96" />
+<link rel="icon" type="image/svg+xml" href="/favicon/favicon.svg" />
+<link rel="shortcut icon" href="/favicon/favicon.ico" />
+<link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png" />
+<meta name="apple-mobile-web-app-title" content="Elite Motors" />
+<link rel="manifest" href="/favicon/site.webmanifest" />
+</head>
+<body>
+        <!-- ================= NAVBAR ================= -->
+
+   <!-- NAVBAR -->
+<header class="main-header">
+
+  <div class="nav-wrapper">
+
+    <!-- LOGO -->
+    <div class="logo-box">
+      <img src="/images/logo.png" class="logo">
+    </div>
+
+    <!-- DESKTOP MENU -->
+    <ul class="nav-links">
+      <li><a href="/index.html">Home</a></li>
+      <li><a href="/aboutUs/about.html">About Us</a></li>
+
+      <li class="services-parent">
+        <a href="#" id="desktopServiceBtn">Services <i class="fa-solid fa-chevron-down"></i></a>
+
+        <!-- MEGA MENU -->
+        <div class="mega-menu" id="megaMenu">
+          <div class="mega-grid">
+
+            <!-- 12 services -->
+    <a href="/services/car-servicing.html" class="service-item">
+      <i class="fa-solid fa-screwdriver-wrench"></i>
+      <span>Car Servicing</span>
+    </a>
+
+    <a href="/services/car-repairing.html" class="service-item">
+      <i class="fa-solid fa-tools"></i>
+      <span>Car Repairing</span>
+    </a>
+
+    <a href="/services/Ac-servicing.html" class="service-item">
+      <i class="fa-solid fa-snowflake"></i>
+      <span>AC Servicing</span>
+    </a>
+
+    <a href="/services/WashingAndDetailing.html" class="service-item">
+      <i class="fa-solid fa-shower"></i>
+      <span>Washing & Detailing</span>
+    </a>
+
+    <a href="/services/AlignmentBalancing_Tyrecare.html" class="service-item">
+      <i class="fa-solid fa-car-burst"></i>
+      <span>Alignment, Balancing & Tyre Care</span>
+    </a>
+
+    <a href="/services/Dents_Paint.html" class="service-item">
+      <i class="fa-solid fa-spray-can-sparkles"></i>
+      <span>Dents & Paint</span>
+    </a>
+
+    <a href="/services/PaintProtectionCoatings.html" class="service-item">
+      <i class="fa-solid fa-paint-roller"></i>
+      <span>Paint Protection Coatings</span>
+    </a>
+
+    <a href="/services/CNGFittingServicing.html" class="service-item">
+      <i class="fa-solid fa-gas-pump"></i>
+      <span>CNG Fitting & Servicing</span>
+    </a>
+
+    <a href="/services/ScanningECMRepairing.html" class="service-item">
+      <i class="fa-solid fa-microchip"></i>
+      <span>Scanning & ECM Repairing</span>
+    </a>
+
+    <a href="/services/WiringBatteries.html" class="service-item">
+      <i class="fa-solid fa-car-battery"></i>
+      <span>Wiring & Batteries</span>
+    </a>
+
+    <a href="/services/WindshieldLights.html" class="service-item">
+      <i class="fa-solid fa-car-side"></i>
+      <span>Windshield / Lights</span>
+    </a>
+
+    <a href="/services/ElectricCarService.html" class="service-item">
+      <i class="fa-solid fa-charging-station"></i>
+      <span>Electric Car Service</span>
+    </a>
+
+          </div>
+        </div>
+      </li>
+
+      <li><a href="/carKnowladge/carknowlg.html">Car Knowledge</a></li>
+      <li><a href="/videos/video.html">Gallery</a></li>
+      <li><a href="/contact/contact.html">Contact Us</a></li>
+    </ul>
+
+    <!-- PHONE -->
+   <a href="tel:+918233354075" class="nav-call">
+    <i class="fas fa-phone"></i> +91 82333 54075
+</a>
+
+    <!-- HAMBURGER -->
+    <div class="menu-btn" id="menuBtn">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+
+  </div>
+</header>
+
+<!-- MOBILE FULL PANEL -->
+<div class="mobile-menu" id="mobileMenu">
+
+  <a href="/index.html">Home</a>
+  <a href="/aboutUs/about.html">About Us</a>
+
+  <a href="#" id="mobileServiceBtn">Services ▾</a>
+
+  <!-- MOBILE SERVICES GRID -->
+  <div class="mobile-services" id="mobileServices">
+
+      <div class="mobile-grid">
+         <a href="/services/car-servicing.html" class="service-item">
+      <i class="fa-solid fa-screwdriver-wrench"></i>
+      <span>Car Servicing</span>
+    </a>
+
+    <a href="/services/car-repairing.html" class="service-item">
+      <i class="fa-solid fa-tools"></i>
+      <span>Car Repairing</span>
+    </a>
+
+    <a href="/services/Ac-servicing.html" class="service-item">
+      <i class="fa-solid fa-snowflake"></i>
+      <span>AC Servicing</span>
+    </a>
+
+    <a href="/services/WashingAndDetailing.html" class="service-item">
+      <i class="fa-solid fa-shower"></i>
+      <span>Washing & Detailing</span>
+    </a>
+
+    <a href="/services/AlignmentBalancing_Tyrecare.html" class="service-item">
+      <i class="fa-solid fa-car-burst"></i>
+      <span>Alignment, Balancing & Tyre Care</span>
+    </a>
+
+    <a href="/services/Dents_Paint.html" class="service-item">
+      <i class="fa-solid fa-spray-can-sparkles"></i>
+      <span>Dents & Paint</span>
+    </a>
+
+    <a href="/services/PaintProtectionCoatings.html" class="service-item">
+      <i class="fa-solid fa-paint-roller"></i>
+      <span>Paint Protection Coatings</span>
+    </a>
+
+    <a href="/services/CNGFittingServicing.html" class="service-item">
+      <i class="fa-solid fa-gas-pump"></i>
+      <span>CNG Fitting & Servicing</span>
+    </a>
+
+    <a href="/services/ScanningECMRepairing.html" class="service-item">
+      <i class="fa-solid fa-microchip"></i>
+      <span>Scanning & ECM Repairing</span>
+    </a>
+
+    <a href="/services/WiringBatteries.html" class="service-item">
+      <i class="fa-solid fa-car-battery"></i>
+      <span>Wiring & Batteries</span>
+    </a>
+
+    <a href="/services/WindshieldLights.html" class="service-item">
+      <i class="fa-solid fa-car-side"></i>
+      <span>Windshield / Lights</span>
+    </a>
+
+    <a href="/services/ElectricCarService.html" class="service-item">
+      <i class="fa-solid fa-charging-station"></i>
+      <span>Electric Car Service</span>
+    </a>
+      </div>
+
+  </div>
+
+  <a href="/carKnowladge/carknowlg.html">Car Knowledge</a>
+  <a href="/videos/video.html">Gallery</a>
+  <a href="/contact/contact.html">Contact Us</a>
+
+  <a href="tel:+918233354075" class="mobile-call">
+    📞 +91 82333 54075
+</a>
+
+</div>
+
+    <!-- ================= HERO SLIDER ================= -->
+
+    <section class="hero">
+      <!-- Car -->
+      <img src="RepairService1.png" class="car" />
+    </section>
+
+
+
+  <!-- Pura website ab iske andar ayega -->
+<div class="main-content">
+
+  
+<!-- ===== Car Servicing Section (Elite Motors Jaipur) ===== -->
+<section class="car-service-section">
+<div class="service-wrapper">
+
+<div class="service-text">
+
+    <h2>Car Service & Repair</h2>
+
+    <!-- IMAGE SHOULD BE HERE -->
+    <div class="service-video">
+        <div class="video-box">
+            <img src="RepairService2.png" alt="Elite Motors Jaipur">
+           
+        </div>
+    </div>
+<p>
+    Many car owners think that car service and car repair are the same, but they actually
+    serve different purposes. Car servicing is preventive maintenance performed at regular
+    intervals to keep the vehicle running smoothly. It includes checking engine oil, filters,
+    brakes, tires, and battery to ensure every component is working properly.
+</p>
+
+<p>
+    Car repair is needed when a specific part of the vehicle becomes damaged or stops working.
+    Issues such as engine problems, clutch failure, overheating, or electrical faults require
+    professional repair or part replacement. Unlike servicing, repair usually occurs after a
+    noticeable problem or breakdown.
+</p>
+
+<p>
+    Regular servicing helps identify minor wear and tear early and prevents small issues from
+    turning into major mechanical failures. It improves fuel efficiency, enhances driving
+    comfort, and increases the overall lifespan of the vehicle. Ignoring scheduled service
+    often leads to unexpected repairs and higher expenses.
+</p>
+
+<p>
+    Understanding the difference between servicing and repair helps vehicle owners take timely
+    action and maintain their car properly. By servicing the car regularly and repairing faults
+    immediately, drivers can ensure better performance, safety, and reliability on the road.
+</p>
+
+
+
+
+
+</div>
+</div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+<!-- ================= CAR SERVICE INFO SECTION ================= -->
+
+<section class="car-info">
+
+    <!-- ========== WHAT IS TUNE UP ========== -->
+    <div class="info-container">
+<h2 class="info-title">Car Repair vs Car Service</h2>
+
+
+<p class="info-text">
+    Car owners often get confused between car service and car repair, but both are different
+    and equally important for maintaining a vehicle. Car service is a routine maintenance
+    process carried out at regular intervals to keep the vehicle in proper working condition.
+    Car repair, on the other hand, is required when a particular component of the vehicle
+    becomes faulty or damaged. Problems such as engine overheating, clutch failure, suspension
+    issues, or electrical faults need proper repair or part replacement. Unlike servicing,
+    repair usually happens after a breakdown or when a noticeable issue appears in the car.
+
+</p>
+
+
+
+
+
+    </div>
+
+
+    <!-- ========== BENEFITS SECTION ========== -->
+    <div class="benefits-container">
+
+        <h2 class="section-heading">Benefits of Regular Car Service & Repair </h2>
+
+        <div class="benefits-wrapper">
+
+            <div class="benefits-text">
+                <ul>
+<li>Helps identify minor issues early before they become major problems</li>
+<li>Improves vehicle performance and driving comfort</li>
+<li>Increases the lifespan of engine and important car components</li>
+<li>Reduces the chances of sudden breakdowns on the road</li>
+<li>Saves money by avoiding expensive repairs through regular servicing</li>
+
+
+
+                </ul>
+            </div>
+
+            <div class="benefits-img">
+                <img src="ECM1.png" alt="Car Servicing">
+            </div>
+
+        </div>
+    </div>
+
+
+    <!-- ========== WHY CHOOSE ========== -->
+    <div class="why-container">
+
+<h2 class="section-heading">Why understanding car repair and car service</h2>
+
+<p>
+    Many car owners believe servicing and repair are the same, but they are actually very different.
+    Car servicing is regular preventive maintenance that keeps your vehicle running smoothly,
+    while car repair is required when a specific part becomes damaged or stops working.
+</p>
+
+<p>
+    Regular servicing helps detect small issues such as low engine oil, worn brake pads, dirty
+    filters, or weak battery before they turn into serious problems. On the other hand, repair
+    work usually involves replacing or fixing faulty components like the clutch, suspension,
+    engine parts, or electrical systems. Understanding when your car needs service and when it
+    needs repair helps improve vehicle performance, increases lifespan, and saves money by
+    avoiding costly damage.
+</p>
+
+
+
+
+    </div>
+
+
+    <!-- ========== FAQ SECTION ========== -->
+    <div class="faq-container">
+
+        <h2 class="section-heading">FAQ's</h2>
+
+<div class="faq-item">
+    <div class="faq-question">What is car servicing?</div>
+    <div class="faq-answer">
+        Car servicing is a routine maintenance process performed at regular intervals to keep your vehicle in good condition. It includes checking engine oil, filters, brakes, battery, tires, and other essential components. Regular servicing helps prevent future problems and ensures smooth and safe driving.
+    </div>
+</div>
+
+<div class="faq-item">
+    <div class="faq-question">What is car repair?</div>
+    <div class="faq-answer">
+        Car repair is done when a specific part of the vehicle stops working or gets damaged. It may include fixing engine issues, replacing a broken clutch, repairing suspension, or solving electrical problems. Unlike servicing, repair is usually required after a fault or breakdown occurs.
+    </div>
+</div>
+
+<div class="faq-item">
+    <div class="faq-question">How often should a car be serviced?</div>
+    <div class="faq-answer">
+        Most cars should be serviced every 6 months or after driving 5,000 to 10,000 kilometers, depending on the manufacturer’s recommendation. Regular servicing helps detect minor issues early and prevents costly repairs in the future.
+    </div>
+</div>
+
+<div class="faq-item">
+    <div class="faq-question">Is car servicing necessary even if the car is running fine?</div>
+    <div class="faq-answer">
+        Yes, servicing is necessary even if the car appears to run perfectly. Many internal components wear out slowly and may not show immediate symptoms. Regular servicing maintains performance, improves fuel efficiency, and increases the lifespan of the vehicle.
+    </div>
+</div>
+
+<div class="faq-item">
+    <div class="faq-question">Which is more expensive: car service or car repair?</div>
+    <div class="faq-answer">
+        Car repair is usually more expensive than servicing because it involves fixing or replacing damaged parts. Servicing is preventive maintenance, while repair happens after a problem occurs. Regular servicing helps avoid major breakdowns and saves money in the long run.
+    </div>
+</div>
+
+
+
+
+
+    </div>
+
+</section>
+
+
+
+
+
+
+<!-- footer section -->
+ <!-- ===== FOOTER START ===== -->
+<!-- footer section -->
+    <!-- ===== FOOTER START ===== -->
+    <footer class="footer">
+      <div class="footer-container">
+        <!-- LEFT : LOGO + TEXT -->
+        <div class="footer-col about-company">
+          <img src="/images/logo.png" class="footer-logo" />
+
+          <p>
+         Elite Motors is one of the most trusted and reliable Car Service Centers 
+         in Jaipur, known for delivering high-quality automobile repair and maintenance 
+         services. 
+          Elite Motors has built a strong reputation among car owners across the city.
+          </p>
+
+          <!-- Social Icons -->
+          <div class="social-icons">
+            <!-- INSTAGRAM -->
+            <a href="https://www.instagram.com/elitemotors702/" target="_blank">
+              <i class="fab fa-instagram"></i>
+            </a>
+
+            <!-- WHATSAPP -->
+            <a href="https://wa.me/918233354075" target="_blank">
+              <i class="fab fa-whatsapp"></i>
+            </a>
+
+            <!-- PHONE CALL -->
+            <a href="tel:+918233354075">
+              <i class="fas fa-phone" id="phoneBtn"></i>
+            </a>
+          </div>
+        </div>
+        <!-- SERVICES -->
+      <div class="footer-col">
+  <h3>Our Services</h3>
+  <ul class="footer-services">
+
+    <li><a href="/services/car-servicing.html">Car Servicing</a></li>
+
+    <li><a href="/services/car-repairing.html">Car Repairing</a></li>
+
+    <li><a href="/services/Ac-servicing.html">AC Servicing</a></li>
+
+    <li><a href="/services/CNGFittingServicing.html">CNG Fitting & Servicing</a></li>
+
+    <li><a href="/services/Dents_Paint.html">Coating / Paint</a></li>
+
+  </ul>
+</div>
+
+
+<!-- ABOUT -->
+<div class="footer-col">
+  <h3>About</h3>
+  <ul class="footer-links">
+
+    <li><a href="/index.html">Home</a></li>
+
+    <li><a href="/aboutUs/about.html">About Us</a></li>
+
+    <li><a href="/videos/video.html">Gallery</a></li>
+
+    <li><a href="/carKnowladge/carknowlg.html">Car Knowledge</a></li>
+
+    <li><a href="/contact/contact.html">Contact Us</a></li>
+
+  </ul>
+</div>
+
+
+       
+
+        <!-- RIGHT SIDE BOOKING -->
+        <div class="footer-col booking">
+          <h3>Contact Details</h3>
+        <p><i class="fa-solid fa-phone"></i> +91 82333 54075</p>
+
+        <p><i class="fa-solid fa-clock"></i> Mon-Sat: 9:30AM - 7:30PM Sunday: 10:00AM - 2:00PM</p>
+
+        <p><i class="fa-solid fa-location-dot"></i> Plot No. 24, Madhu Vatika Agra Road, Jaipur -302031  </p>
+
+          
+        </div>
+      </div>
+
+      <!-- COPYRIGHT -->
+      <div class="copyright">
+        <p>Copyright © 2026 Elite Motors. All rights reserved</p>
+        <p>
+          Made with ❤️ by
+          <a
+            href="https://agilesolutions.co.in/"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="visit"
+          >
+            Agile Edtech Solutions Pvt Ltd
+          </a>
+        </p>
+      </div>
+    </footer>
+    <!-- ===== FOOTER END ===== -->
+<!-- ===== FOOTER END ===== -->
+
+</div>
+
+
+    <script src="service.js"></script>
+</body>
+</html>

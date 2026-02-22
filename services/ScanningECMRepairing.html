@@ -1,0 +1,519 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Scanning & ECM Repairing at Elite Motors</title>
+    <link rel="stylesheet" href="service.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- favicon -->
+    <link
+      rel="icon"
+      type="image/png"
+      href="/favicon/favicon-96x96.png"
+      sizes="96x96"
+    />
+    <link rel="icon" type="image/svg+xml" href="/favicon/favicon.svg" />
+    <link rel="shortcut icon" href="/favicon/favicon.ico" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="/favicon/apple-touch-icon.png"
+    />
+    <meta name="apple-mobile-web-app-title" content="Elite Motors" />
+    <link rel="manifest" href="/favicon/site.webmanifest" />
+  </head>
+  <body>
+    <!-- ================= NAVBAR ================= -->
+
+ <!-- NAVBAR -->
+<header class="main-header">
+
+  <div class="nav-wrapper">
+
+    <!-- LOGO -->
+    <div class="logo-box">
+      <img src="/images/logo.png" class="logo">
+    </div>
+
+    <!-- DESKTOP MENU -->
+    <ul class="nav-links">
+      <li><a href="/index.html">Home</a></li>
+      <li><a href="/aboutUs/about.html">About Us</a></li>
+
+      <li class="services-parent">
+        <a href="#" id="desktopServiceBtn">Services <i class="fa-solid fa-chevron-down"></i></a>
+
+        <!-- MEGA MENU -->
+        <div class="mega-menu" id="megaMenu">
+          <div class="mega-grid">
+
+            <!-- 12 services -->
+    <a href="/services/car-servicing.html" class="service-item">
+      <i class="fa-solid fa-screwdriver-wrench"></i>
+      <span>Car Servicing</span>
+    </a>
+
+    <a href="/services/car-repairing.html" class="service-item">
+      <i class="fa-solid fa-tools"></i>
+      <span>Car Repairing</span>
+    </a>
+
+    <a href="/services/Ac-servicing.html" class="service-item">
+      <i class="fa-solid fa-snowflake"></i>
+      <span>AC Servicing</span>
+    </a>
+
+    <a href="/services/WashingAndDetailing.html" class="service-item">
+      <i class="fa-solid fa-shower"></i>
+      <span>Washing & Detailing</span>
+    </a>
+
+    <a href="/services/AlignmentBalancing_Tyrecare.html" class="service-item">
+      <i class="fa-solid fa-car-burst"></i>
+      <span>Alignment, Balancing & Tyre Care</span>
+    </a>
+
+    <a href="/services/Dents_Paint.html" class="service-item">
+      <i class="fa-solid fa-spray-can-sparkles"></i>
+      <span>Dents & Paint</span>
+    </a>
+
+    <a href="/services/PaintProtectionCoatings.html" class="service-item">
+      <i class="fa-solid fa-paint-roller"></i>
+      <span>Paint Protection Coatings</span>
+    </a>
+
+    <a href="/services/CNGFittingServicing.html" class="service-item">
+      <i class="fa-solid fa-gas-pump"></i>
+      <span>CNG Fitting & Servicing</span>
+    </a>
+
+    <a href="/services/ScanningECMRepairing.html" class="service-item">
+      <i class="fa-solid fa-microchip"></i>
+      <span>Scanning & ECM Repairing</span>
+    </a>
+
+    <a href="/services/WiringBatteries.html" class="service-item">
+      <i class="fa-solid fa-car-battery"></i>
+      <span>Wiring & Batteries</span>
+    </a>
+
+    <a href="/services/WindshieldLights.html" class="service-item">
+      <i class="fa-solid fa-car-side"></i>
+      <span>Windshield / Lights</span>
+    </a>
+
+    <a href="/services/ElectricCarService.html" class="service-item">
+      <i class="fa-solid fa-charging-station"></i>
+      <span>Electric Car Service</span>
+    </a>
+
+          </div>
+        </div>
+      </li>
+
+      <li><a href="/carKnowladge/carknowlg.html">Car Knowledge</a></li>
+      <li><a href="/videos/video.html">Gallery</a></li>
+      <li><a href="/contact/contact.html">Contact Us</a></li>
+    </ul>
+
+    <!-- PHONE -->
+   <a href="tel:+918233354075" class="nav-call">
+    <i class="fas fa-phone"></i> +91 82333 54075
+</a>
+
+    <!-- HAMBURGER -->
+    <div class="menu-btn" id="menuBtn">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+
+  </div>
+</header>
+
+<!-- MOBILE FULL PANEL -->
+<div class="mobile-menu" id="mobileMenu">
+
+  <a href="/index.html">Home</a>
+  <a href="/aboutUs/about.html">About Us</a>
+
+  <a href="#" id="mobileServiceBtn">Services ▾</a>
+
+  <!-- MOBILE SERVICES GRID -->
+  <div class="mobile-services" id="mobileServices">
+
+      <div class="mobile-grid">
+         <a href="/services/car-servicing.html" class="service-item">
+      <i class="fa-solid fa-screwdriver-wrench"></i>
+      <span>Car Servicing</span>
+    </a>
+
+    <a href="/services/car-repairing.html" class="service-item">
+      <i class="fa-solid fa-tools"></i>
+      <span>Car Repairing</span>
+    </a>
+
+    <a href="/services/Ac-servicing.html" class="service-item">
+      <i class="fa-solid fa-snowflake"></i>
+      <span>AC Servicing</span>
+    </a>
+
+    <a href="/services/WashingAndDetailing.html" class="service-item">
+      <i class="fa-solid fa-shower"></i>
+      <span>Washing & Detailing</span>
+    </a>
+
+    <a href="/services/AlignmentBalancing_Tyrecare.html" class="service-item">
+      <i class="fa-solid fa-car-burst"></i>
+      <span>Alignment, Balancing & Tyre Care</span>
+    </a>
+
+    <a href="/services/Dents_Paint.html" class="service-item">
+      <i class="fa-solid fa-spray-can-sparkles"></i>
+      <span>Dents & Paint</span>
+    </a>
+
+    <a href="/services/PaintProtectionCoatings.html" class="service-item">
+      <i class="fa-solid fa-paint-roller"></i>
+      <span>Paint Protection Coatings</span>
+    </a>
+
+    <a href="/services/CNGFittingServicing.html" class="service-item">
+      <i class="fa-solid fa-gas-pump"></i>
+      <span>CNG Fitting & Servicing</span>
+    </a>
+
+    <a href="/services/ScanningECMRepairing.html" class="service-item">
+      <i class="fa-solid fa-microchip"></i>
+      <span>Scanning & ECM Repairing</span>
+    </a>
+
+    <a href="/services/WiringBatteries.html" class="service-item">
+      <i class="fa-solid fa-car-battery"></i>
+      <span>Wiring & Batteries</span>
+    </a>
+
+    <a href="/services/WindshieldLights.html" class="service-item">
+      <i class="fa-solid fa-car-side"></i>
+      <span>Windshield / Lights</span>
+    </a>
+
+    <a href="/services/ElectricCarService.html" class="service-item">
+      <i class="fa-solid fa-charging-station"></i>
+      <span>Electric Car Service</span>
+    </a>
+      </div>
+
+  </div>
+
+  <a href="/carKnowladge/carknowlg.html">Car Knowledge</a>
+  <a href="/videos/video.html">Gallery</a>
+  <a href="/contact/contact.html">Contact Us</a>
+
+  <a href="tel:+918233354075" class="mobile-call">
+    📞 +91 82333 54075
+</a>
+
+</div>
+
+    <!-- ================= HERO SLIDER ================= -->
+
+    <section class="hero">
+      <!-- Car -->
+      <img src="ECM.png" class="car" />
+    </section>
+
+    <!-- Pura website ab iske andar ayega -->
+    <div class="main-content">
+      <!-- ===== Car Servicing Section (Elite Motors Jaipur) ===== -->
+      <section class="car-service-section">
+        <div class="service-wrapper">
+          <div class="service-text">
+            <h2>Scanning & ECM Repairing</h2>
+
+            <!-- IMAGE SHOULD BE HERE -->
+            <div class="service-video">
+              <div class="video-box">
+                <img src="ECM1.png" alt="Elite Motors Jaipur" />
+              </div>
+            </div>
+
+            <p>
+              ECM Scanning & Repair is essential for modern cars because today’s
+              vehicles are fully controlled by electronic systems. At
+              <b>Elite Motors Jaipur</b>, we diagnose your car’s Engine Control
+              Module (ECU/ECM) to identify hidden engine faults, sensor failures
+              and warning light issues before they turn into major repairs. If
+              you are searching for a reliable
+              <b>car diagnostic center near me</b> in Jaipur, Elite Motors is
+              your trusted destination.
+            </p>
+
+            <p>
+              Our professional technicians use advanced computerized scanners to
+              read error codes and analyze real-time engine data. This helps us
+              accurately detect problems related to fuel injection, ignition
+              timing, sensors and wiring so your car performs smoothly and
+              safely on the road.
+            </p>
+
+            <p>
+              Our ECM service includes complete system scanning, fault code
+              analysis, sensor checking, wiring inspection, ECU reset and
+              calibration. We also solve issues like check engine light,
+              starting problems, low mileage, power loss and irregular idling to
+              restore proper engine performance.
+            </p>
+
+            <p>
+              We also provide <b>pickup and drop facility in Jaipur</b> for your
+              convenience. Your vehicle is diagnosed and repaired by trained
+              experts using professional equipment and delivered back to you on
+              time with improved performance and reliability.
+            </p>
+          </div>
+        </div>
+      </section>
+
+
+
+      <!-- ================= CAR SERVICE INFO SECTION ================= -->
+
+      <section class="car-info">
+        <!-- ========== WHAT IS TUNE UP ========== -->
+        <div class="info-container">
+          <h2 class="info-title">What is Tune Up or General Service of Car?</h2>
+
+          <p class="info-text">
+            ECM Scanning & Repair is a computerized diagnostic process used to
+            check the electronic brain of your car, known as the Engine Control
+            Module (ECU/ECM). Modern vehicles depend on sensors and electronic
+            controls to manage fuel injection, ignition timing, air-fuel ratio
+            and engine performance. Using advanced diagnostic scanners,
+            technicians read fault codes, identify sensor failures, wiring
+            issues or software errors and repair them accurately. Regular ECM
+            scanning helps detect problems early, prevents engine damage and
+            ensures smooth performance, proper mileage and safe driving.
+          </p>
+        </div>
+
+        <!-- ========== BENEFITS SECTION ========== -->
+        <div class="benefits-container">
+          <h2 class="section-heading">Benefits of ECM Scanning & Repair</h2>
+
+          <div class="benefits-wrapper">
+            <div class="benefits-text">
+              <ul>
+                <li>Accurately detects hidden engine and sensor faults</li>
+                <li>Prevents sudden breakdowns and starting problems</li>
+                <li>Improves engine performance and throttle response</li>
+                <li>Optimizes fuel injection for better mileage</li>
+                <li>
+                  Clears warning lights and ensures proper ECU & sensor
+                  communication
+                </li>
+              </ul>
+            </div>
+
+            <div class="benefits-img">
+              <img src="ECM3.png" alt="Car Servicing" />
+            </div>
+          </div>
+        </div>
+
+        <!-- ========== WHY CHOOSE ========== -->
+        <div class="why-container">
+          <h2 class="section-heading">Why choose Elite Motors Jaipur?</h2>
+
+          <p>
+            Elite Motors Jaipur provides advanced ECM Scanning & Repair services
+            using modern computerized diagnostic equipment. Our technicians
+            accurately detect engine faults, sensor errors and electronic
+            control issues that cannot be identified in normal inspection,
+            ensuring proper engine performance and safety.
+          </p>
+
+          <p>
+            We not only repair the problem but also analyze the root cause,
+            reset error codes, calibrate sensors and guide you about preventive
+            maintenance. Whether your check engine light is ON, mileage has
+            dropped or your car performance is poor, our experienced team offers
+            the correct and reliable solution.
+          </p>
+        </div>
+
+        <!-- ========== FAQ SECTION ========== -->
+        <div class="faq-container">
+          <h2 class="section-heading">FAQ's</h2>
+
+          <div class="faq-item">
+            <div class="faq-question">What is ECM scanning in a car?</div>
+            <div class="faq-answer">
+              ECM scanning is a computerized diagnostic process where we connect
+              advanced scanning tools to your car’s Engine Control Module to
+              detect faults, error codes and sensor issues.
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <div class="faq-question">When should I get ECM scanning done?</div>
+            <div class="faq-answer">
+              You should get ECM scanning when your check engine light turns ON,
+              mileage drops, engine misfires, or the car shows starting or
+              performance problems.
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <div class="faq-question">
+              Can ECM repair fix mileage and performance issues?
+            </div>
+            <div class="faq-answer">
+              Yes. A faulty ECM or sensor data can affect fuel injection and
+              ignition timing. After proper repair and calibration, your car’s
+              mileage and performance usually improve.
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <div class="faq-question">Is ECM repair expensive?</div>
+            <div class="faq-answer">
+              Not always. Many issues are caused by sensors or wiring faults
+              which can be repaired at a reasonable cost. Complete ECM
+              replacement is only needed in rare cases.
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <div class="faq-question">
+              How long does ECM scanning and repair take?
+            </div>
+            <div class="faq-answer">
+              Basic ECM scanning takes around 20–30 minutes. If repair or wiring
+              work is required, it may take a few hours depending on the
+              problem.
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- footer section -->
+ <!-- footer section -->
+    <!-- ===== FOOTER START ===== -->
+    <footer class="footer">
+      <div class="footer-container">
+        <!-- LEFT : LOGO + TEXT -->
+        <div class="footer-col about-company">
+          <img src="/images/logo.png" class="footer-logo" />
+
+          <p>
+         Elite Motors is one of the most trusted and reliable Car Service Centers 
+         in Jaipur, known for delivering high-quality automobile repair and maintenance 
+         services. 
+          Elite Motors has built a strong reputation among car owners across the city.
+          </p>
+
+          <!-- Social Icons -->
+          <div class="social-icons">
+            <!-- INSTAGRAM -->
+            <a href="https://www.instagram.com/elitemotors702/" target="_blank">
+              <i class="fab fa-instagram"></i>
+            </a>
+
+            <!-- WHATSAPP -->
+            <a href="https://wa.me/918233354075" target="_blank">
+              <i class="fab fa-whatsapp"></i>
+            </a>
+
+            <!-- PHONE CALL -->
+            <a href="tel:+918233354075">
+              <i class="fas fa-phone" id="phoneBtn"></i>
+            </a>
+          </div>
+        </div>
+
+            <!-- SERVICES -->
+      <div class="footer-col">
+  <h3>Our Services</h3>
+  <ul class="footer-services">
+
+    <li><a href="/services/car-servicing.html">Car Servicing</a></li>
+
+    <li><a href="/services/car-repairing.html">Car Repairing</a></li>
+
+    <li><a href="/services/Ac-servicing.html">AC Servicing</a></li>
+
+    <li><a href="/services/CNGFittingServicing.html">CNG Fitting & Servicing</a></li>
+
+    <li><a href="/services/Dents_Paint.html">Coating / Paint</a></li>
+
+  </ul>
+</div>
+
+
+<!-- ABOUT -->
+<div class="footer-col">
+  <h3>About</h3>
+  <ul class="footer-links">
+
+    <li><a href="/index.html">Home</a></li>
+
+    <li><a href="/aboutUs/about.html">About Us</a></li>
+
+    <li><a href="/videos/video.html">Gallery</a></li>
+
+    <li><a href="/carKnowladge/carknowlg.html">Car Knowledge</a></li>
+
+    <li><a href="/contact/contact.html">Contact Us</a></li>
+
+  </ul>
+</div>
+
+
+   
+
+        <!-- RIGHT SIDE BOOKING -->
+        <div class="footer-col booking">
+          <h3>Contact Details</h3>
+        <p><i class="fa-solid fa-phone"></i> +91 82333 54075</p>
+
+        <p><i class="fa-solid fa-clock"></i> Mon-Sat: 9:30AM - 7:30PM Sunday: 10:00AM - 2:00PM</p>
+
+        <p><i class="fa-solid fa-location-dot"></i> Plot No. 24, Madhu Vatika Agra Road, Jaipur -302031  </p>
+
+          
+        </div>
+      </div>
+
+      <!-- COPYRIGHT -->
+      <div class="copyright">
+        <p>Copyright © 2026 Elite Motors. All rights reserved</p>
+        <p>
+          Made with ❤️ by
+          <a
+            href="https://agilesolutions.co.in/"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="visit"
+          >
+            Agile Edtech Solutions Pvt Ltd
+          </a>
+        </p>
+      </div>
+    </footer>
+    <!-- ===== FOOTER END ===== -->
+      <!-- ===== FOOTER END ===== -->
+    </div>
+
+    <script src="service.js"></script>
+  </body>
+</html>
