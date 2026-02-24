@@ -2,7 +2,7 @@
 const menuBtn = document.getElementById("menuBtn");
 const mobileMenu = document.getElementById("mobileMenu");
 
-menuBtn.onclick = ()=>{
+menuBtn.onclick = () => {
   mobileMenu.classList.toggle("active");
 };
 
@@ -10,7 +10,7 @@ menuBtn.onclick = ()=>{
 const desktopServiceBtn = document.getElementById("desktopServiceBtn");
 const megaMenu = document.getElementById("megaMenu");
 
-desktopServiceBtn.onclick = (e)=>{
+desktopServiceBtn.onclick = (e) => {
   e.preventDefault();
   megaMenu.classList.toggle("active");
 };
@@ -19,36 +19,39 @@ desktopServiceBtn.onclick = (e)=>{
 const mobileServiceBtn = document.getElementById("mobileServiceBtn");
 const mobileServices = document.getElementById("mobileServices");
 
-mobileServiceBtn.onclick = (e)=>{
+mobileServiceBtn.onclick = (e) => {
   e.preventDefault();
   mobileServices.classList.toggle("active");
 };
 
-
 //contact cards
-function makeCall(){
-    window.location.href="tel:+918233354075";
+function makeCall() {
+  window.location.href = "/tel:+918233354075";
 }
 
-function openWhatsApp(){
-    let msg="Hello I want car service today";
-    window.open(`https://wa.me/918233354075?text=${encodeURIComponent(msg)}`,"_blank");
+function openWhatsApp() {
+  let msg = "Hello I want car service today";
+  window.open(
+    `https://wa.me/918233354075?text=${encodeURIComponent(msg)}`,
+    "_blank",
+  );
 }
 
-function openLocation(){
-    window.open("https://maps.google.com/?q=Elite+Motors+Kanota+Agra+Road+Jaipur","_blank");
+function openLocation() {
+  window.open(
+    "https://maps.google.com/?q=Elite+Motors+Kanota+Agra+Road+Jaipur",
+    "_blank",
+  );
 }
 
-function openInstagram(){
-    window.open("https://instagram.com/","_blank");
+function openInstagram() {
+  window.open("https://instagram.com/", "_blank");
 }
-
-
-
-
 
 // =====for contact part +location=====
-document.getElementById("whatsappForm").addEventListener("submit", function(e){
+document
+  .getElementById("whatsappForm")
+  .addEventListener("submit", function (e) {
     e.preventDefault();
 
     let name = document.getElementById("name").value;
@@ -60,8 +63,7 @@ document.getElementById("whatsappForm").addEventListener("submit", function(e){
     // WhatsApp number
     let whatsappNumber = "918233354075";
 
-    let finalMessage =
-`New Booking Enquiry
+    let finalMessage = `New Booking Enquiry
 
 Name: ${name}
 Email: ${email}
@@ -74,4 +76,4 @@ Message: ${message}`;
     let url = `https://wa.me/${whatsappNumber}?text=${encodedMessage}`;
 
     window.open(url, "_blank");
-});
+  });
