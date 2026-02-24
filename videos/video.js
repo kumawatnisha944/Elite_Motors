@@ -26,7 +26,7 @@ mobileServiceBtn.onclick = (e) => {
 
 //contact cards
 function makeCall() {
-  window.location.href = "/tel:+918233354075";
+  window.location.href = "tel:+918233354075";
 }
 
 function openWhatsApp() {
